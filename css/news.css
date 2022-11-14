@@ -1,0 +1,141 @@
+@media screen and (max-width:1023px) {
+  .news {}
+
+  .news-title {
+    margin-top: 62px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #151515;
+  }
+
+  .news-lines {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .news-lines .line-wide {
+    background: #37A0CF;
+    border-radius: 6px;
+    width: 35px;
+    height: 4px;
+  }
+
+  .news-lines .line {
+    background: #37A0CF;
+    border-radius: 6px;
+    width: 11px;
+    height: 4px;
+    margin-left: 10px;
+  }
+
+  .news-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .news-content {
+    margin-bottom: 15px;
+    width: 280px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 15px;
+  }
+
+  .news-content-info {
+    padding: 27px;
+  }
+
+  .news-content .news-content-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #151515;
+    margin-bottom: 10px;
+  }
+
+  .news-content .news-content-time {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #777777;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .news {}
+
+  .news-title {
+    margin-top: 62px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #151515;
+  }
+
+  .news-lines {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .news-lines .line-wide {
+    background: #37A0CF;
+    border-radius: 6px;
+    width: 35px;
+    height: 4px;
+  }
+
+  .news-lines .line {
+    background: #37A0CF;
+    border-radius: 6px;
+    width: 11px;
+    height: 4px;
+    margin-left: 10px;
+  }
+
+  .news-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .news-content {
+    margin-bottom: 15px;
+    width: 280px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 15px;
+  }
+
+  .news-content-info {
+    padding: 27px;
+  }
+
+  .news-content .news-content-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #151515;
+    margin-bottom: 10px;
+  }
+
+  .news-content .news-content-time {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #777777;
+  }
+}

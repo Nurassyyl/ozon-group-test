@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@400;600&display=swap');
+
+@media screen and (max-width:1023px) {
+  .contacts-title {}
+
+  .contacts-lines {
+    display: flex;
+    align-items: center;
+  }
+
+  .contacts-lines .line-wide {
+    width: 35px;
+    height: 4px;
+    background: #37A0CF;
+    border-radius: 6px;
+  }
+
+  .contacts-lines .line {
+    width: 11px;
+    height: 4px;
+    background: #37A0CF;
+    border-radius: 6px;
+    margin-left: 10px;
+  }
+
+  .contacts-contents {
+    margin-top: 47px;
+    font-family: 'Noto Sans Symbols', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .contacts-content {
+    border: 1px solid #E3E3E3;
+    border-radius: 15px;
+    height: 150px;
+    padding: 15px 5px 5px;
+  }
+
+  .contacts-content-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #868686;
+    margin-bottom: 7px;
+  }
+
+  .contacts-content-info {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 12px;
+    color: #333333;
+  }
+
+  .contacts-content-info a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+  }
+
+  .contacts-map {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .contacts-title {}
+
+  .contacts-lines {
+    display: flex;
+    align-items: center;
+  }
+
+  .contacts-lines .line-wide {
+    width: 35px;
+    height: 4px;
+    background: #37A0CF;
+    border-radius: 6px;
+  }
+
+  .contacts-lines .line {
+    width: 11px;
+    height: 4px;
+    background: #37A0CF;
+    border-radius: 6px;
+    margin-left: 10px;
+  }
+
+  .contacts-contents {
+    margin-top: 47px;
+    font-family: 'Noto Sans Symbols', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .contacts-content {
+    margin: 10px;
+    border: 1px solid #E3E3E3;
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+    padding: 15px 5px 5px;
+  }
+
+  .contacts-content-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #868686;
+    margin-bottom: 7px;
+  }
+
+  .contacts-content-info {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 12px;
+    color: #333333;
+  }
+
+  .contacts-content-info a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+  }
+
+  .contacts-map {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}

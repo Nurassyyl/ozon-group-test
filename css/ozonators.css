@@ -1,0 +1,347 @@
+@media screen and (min-width:767px) and (max-width: 1023px) {
+  .ozonators {}
+
+  .ozonators-title {
+    margin-top: 62px;
+  }
+
+  .ozonators-lines {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .ozonators-lines .line-wide {
+    background: #37A0CF;
+    border-radius: 6px;
+    width: 35px;
+    height: 4px;
+  }
+
+  .ozonators-lines .line {
+    background: #37A0CF;
+    border-radius: 6px;
+    width: 11px;
+    height: 4px;
+    margin-left: 10px;
+  }
+
+  .ozonators-content {
+    display: flex;
+  }
+
+  .ozonators-content hr {
+    background: #D9D9D9;
+  }
+
+  .category-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+
+  .category-title p {
+    margin-left: 11px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    color: #151515;
+  }
+
+  .category-types {
+    margin: 23px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .category .active p {
+    color: #37A0CF;
+    font-weight: 900;
+  }
+
+  .category-types .active {
+    background: #37A0CF;
+  }
+
+  .category-types p {
+    margin-left: 11px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .category-line {
+    background: #151515;
+    width: 9.32px;
+    height: 3.6px
+  }
+
+  .category-products {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .category-product {
+    width: 190px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+
+  .category-product:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+  .category-product img {
+    width: 100%;
+  }
+
+  .category-product-title {
+    color: #151515;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .category-product-info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 122.01%;
+    color: #444444;
+    margin-top: 10px;
+  }
+
+  .category-product-price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999999;
+  }
+
+  .category-product-price .category-product-on-request {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #151515;
+  }
+
+  .category-arrows {
+    margin: 80px 0 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .category-pagintion-numbers {
+    display: flex;
+    align-items: center;
+  }
+
+  .category-pagintion-numbers .active {
+    background-color: #37A0CF;
+    border-radius: 100%;
+    padding: 10px 15px;
+    color: #FFFFFF;
+  }
+
+  .category-number {
+    margin-right: 8px;
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .category-number:first-child {
+    margin-left: 35px;
+  }
+
+  .category-number:last-child {
+    margin-right: 35px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .ozonators {}
+
+  .ozonators-title {
+    margin-top: 62px;
+  }
+
+  .ozonators-lines {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .ozonators-lines .line-wide {
+    background: #37A0CF;
+    border-radius: 6px;
+    width: 35px;
+    height: 4px;
+  }
+
+  .ozonators-lines .line {
+    background: #37A0CF;
+    border-radius: 6px;
+    width: 11px;
+    height: 4px;
+    margin-left: 10px;
+  }
+
+  .ozonators-content {
+    display: flex;
+  }
+
+  .ozonators-content hr {
+    background: #D9D9D9;
+  }
+
+  .category-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+
+  .category-title p {
+    margin-left: 11px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    color: #151515;
+  }
+
+  .category-types {
+    margin: 23px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .category .active p {
+    color: #37A0CF;
+    font-weight: 900;
+  }
+
+  .category-types .active {
+    background: #37A0CF;
+  }
+
+  .category-types p {
+    margin-left: 11px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .category-line {
+    background: #151515;
+    width: 9.32px;
+    height: 3.6px
+  }
+
+  .category-products {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .category-product {
+    width: 190px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+
+  .category-product:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+  .category-product img {
+    width: 100%;
+  }
+
+  .category-product-title {
+    color: #151515;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .category-product-info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 122.01%;
+    color: #444444;
+    margin-top: 10px;
+  }
+
+  .category-product-price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999999;
+  }
+
+  .category-product-price .category-product-on-request {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #151515;
+  }
+
+  .category-arrows {
+    margin: 80px 0 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .category-pagintion-numbers {
+    display: flex;
+    align-items: center;
+  }
+
+  .category-pagintion-numbers .active {
+    background-color: #37A0CF;
+    border-radius: 100%;
+    padding: 10px 15px;
+    color: #FFFFFF;
+  }
+
+  .category-number {
+    margin-right: 8px;
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .category-number:first-child {
+    margin-left: 35px;
+  }
+
+  .category-number:last-child {
+    margin-right: 35px;
+  }
+}
